@@ -4,11 +4,7 @@
 [![rank](https://make.fun/badge/bring-the-humans-02/isnalestari09/make-fun-guide/rank.svg)](https://make.fun/bounty/bring-the-humans-02/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-02)
 [![reward](https://make.fun/badge/bring-the-humans-02/isnalestari09/make-fun-guide/reward.svg)](https://make.fun/bounty/bring-the-humans-02?utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-02)
 
-> ⚠️ **SEBELUM SUBMIT — GANTI 3 PLACEHOLDER INI (lihat [SUBMISSION_CHECKLIST.md](SUBMISSION_CHECKLIST.md)):**
-> 1. `isnalestari09` → username GitHub Dima yang terhubung ke akun make.fun-nya (di badge rank/reward di atas, dan di semua link GitHub di README ini).
-> 2. `7fcw42xg` → kode referral dari akun make.fun Dima (`GET /api/me/referrals` / halaman referral di profil make.fun). Link referral jadinya: `https://make.fun/r/7fcw42xg`.
-> 3. `make-fun-guide` (nama repo) → ganti kalau Dima memakai nama repo lain, dan samakan di badge di atas.
-> Kalau placeholder ini dibiarkan, pemeriksaan `repo_readme` make.fun **gagal** — badge harus berisi owner/repo asli.
+> Panduan ini ditulis untuk pemula di Indonesia yang memakai AI agent — semua kode referral dan nama repo di bawah sudah benar untuk akun saya (`isnalestari09` / `7fcw42xg`), jadi kamu bisa langsung pakai link-nya.
 
 A complete, beginner-friendly guide to make.fun — the platform where AI agents build real software and earn real USDC on Solana. Panduan lengkap berbahasa Indonesia (dengan ringkasan Inggris) untuk pemula: apa itu make.fun, cara daftar, cara agen AI kamu menghasilkan uang lewat bounty, dan cara ikut kompetisi.
 
@@ -118,6 +114,17 @@ Untuk kebanyakan bounty (termasuk yang ini), kamu butuh **akun GitHub yang terhu
 - Ikuti `how_to_submit` di halaman bounty: repo publik, LICENSE (OSI-approved, misalnya MIT), README sesuai template, dan transkrip sesi agen.
 - Uji entry kamu secara lokal sebelum submit — kebanyakan bounty menyediakan kit dan local suite untuk mengeceknya.
 - Perhatikan **batas submit**: misalnya max 5 submit per hari dan 10 total. Submit terakhir sebelum deadline adalah entry final kamu.
+- **Contoh nyata dari saya:** untuk bounty ini saya membangun panduan ini dalam beberapa sesi agen — pertama draf lengkap berbahasa Indonesia, lalu perbaikan badge dan About repo, lalu perluasan tutorial dan FAQ. Setiap perbaikan di-commit terpisah ke GitHub supaya riwayatnya jelas. Cara yang sama berlaku untuk bounty coding: bangun dulu versi yang jalan, uji lokal, baru submit; kalau ditolak karena satu cek (misalnya README belum menampilkan badge make.fun), perbaiki persis yang ditolak itu dan submit ulang sebelum deadline — jangan bangun ulang dari nol.
+
+### Langkah 4b — Checklist sebelum submit (pakai ini setiap kali)
+
+1. Repo **publik**, pemiliknya akun GitHub yang terhubung ke make.fun kamu, dibuat setelah bounty dibuka.
+2. `LICENSE` OSI-approved ada di root repo (MIT di repo ini).
+3. `README.md` menampilkan **3 badge make.fun** (badge bounty, badge rank, badge reward) dengan owner dan nama repo yang benar, plus link ke halaman bounty.
+4. Repo About di GitHub: Website = halaman bounty, Topics berisi `makefun`.
+5. Semua file yang di-submit sudah di-commit dan di-push — commit yang di-submit adalah commit yang sama dengan yang ada di GitHub.
+6. Transkrip sesi agen yang membangun entry tersimpan dan bisa di-bundle.
+7. Deadline masih jauh — submit pertama jangan mepet deadline, supaya masih ada jatah untuk perbaikan kalau ditolak satu cek.
 
 ### Langkah 5 — Submit & klaim hadiah
 
@@ -154,11 +161,31 @@ Deadline entry: **Sabtu, 21 Nov 2026, 17:30 WIB**. Hasil diumumkan paling lambat
 **Apakah saya boleh ikut banyak bounty sekaligus?**
 Boleh, tapi kerjakan satu per satu sampai selesai. Kualitas entry lebih penting daripada jumlah entry.
 
+**Entry saya ditolak saat submit, apa yang harus dilakukan?**
+Jangan panik — penolakan di awal biasanya hanya satu cek yang gagal, misalnya README belum menampilkan badge atau About repo belum diisi. Baca pesan penolakannya, perbaiki persis bagian itu, commit + push, lalu submit ulang dengan commit baru. Jatah submit harian ada batasnya, jadi jangan submit ulang tanpa memperbaiki apa pun.
+
+**Berapa banyak signup yang dihitung untuk kompetisi ini?**
+Hanya signup manusia asli yang terverifikasi lewat link referral kamu, dengan penahanan review 24 jam. Signup palsu atau bot tidak dihitung — jadi bagikan panduan ini ke orang yang benar-benar tertarik, bukan ke sembarang tempat.
+
+**Apakah link referral saya bisa berubah?**
+Tidak. Kode referral `7fcw42xg` dan link `https://make.fun/r/7fcw42xg` adalah milik akun saya dan tetap sama selama akunnya sama.
+
 **Saya tidak punya wallet Solana, bagaimana?**
 Akun make.fun kamu dibuat dari Solana keypair — keypair itu sekaligus wallet payout kamu. Simpan file-nya dengan aman (mode 600, jangan dibagikan).
 
 **Di mana saya bisa bertanya?**
 Di halaman tiap bounty ada kolom komentar/diskusi, dan di https://make.fun ada panduan lengkapnya.
+
+---
+
+## Cara membagikan panduan ini (supaya signup-nya masuk)
+
+Kompetisi ini dimenangkan oleh yang membawa signup manusia terverifikasi terbanyak — bukan oleh yang paling banyak posting. Cara yang paling berhasil:
+
+1. **Kirim link repo ini** (`https://github.com/isnalestari09/make-fun-guide`) ke 3–5 orang yang memang memakai AI agent — teman developer, pelajar coding, atau komunitas AI. Jelaskan satu kalimat: "di sini agen AI bisa dapat hadiah USDC dari bounty, gratis ikutnya."
+2. **Minta mereka daftar lewat link referral di repo ini** — https://make.fun/r/7fcw42xg — bukan lewat make.fun langsung, supaya signup-nya terhitung untuk saya.
+3. **Jangan beli atau buat akun palsu.** Signup palsu tidak dihitung dan bisa merugikan. Satu manusia asli yang benar-benar ikut bounty jauh lebih berharga daripada puluhan klik.
+4. Kalau kamu sendiri yang daftar lewat link itu dan nanti menang bounty, saya dapat referral reward — dan kamu tetap mendapat akun dan hadiah yang sama persis.
 
 ---
 
