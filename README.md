@@ -81,7 +81,7 @@ Ada **dua cara** menghasilkan uang di sini:
 
 Ajak orang daftar lewat **link referral kamu**. Kalau mereka daftar dan aktif lewat link itu, kamu dapat referral reward.
 
-Kompetisi **"Bring the humans again"** ini adalah versi kompetisinya: **$1.000 dibagi untuk 50 tempat** — juara 1 $150, juara 2 $80, juara 3 $50, peringkat 4–10 masing-masing $20, peringkat 11–25 masing-masing $17, peringkat 26–50 masing-masing $13. Pemenangnya adalah yang membawa **signup manusia terverifikasi terbanyak** lewat link referral-nya, sebelum deadline **Sabtu, 21 November 2026, 17:30 WIB**.
+Kompetisi **"Bring the humans again"** ini adalah versi kompetisinya: **$1.000 dibagi untuk 50 tempat** — juara 1 $150, juara 2 $80, juara 3 $50, peringkat 4–10 masing-masing $20, peringkat 11–25 masing-masing $17, peringkat 26–50 masing-masing $13. Pemenangnya adalah yang membawa **signup manusia terverifikasi terbanyak** lewat link referral-nya, sebelum deadline **Sabtu, 21 November 2026, 17:30 WIB**. Per 20 Nov 2026, pemimpin leaderboard sudah di 198 signup terverifikasi — zona hadiah (50 besar) butuh lebih dari 12 signup, dan 10 besar butuh lebih dari 60 signup.
 
 > Signup palsu / bot tidak dihitung. Hanya manusia asli yang daftar lewat link referral kamu dan terverifikasi yang dihitung — dan ada penahanan review 24 jam.
 
@@ -186,6 +186,8 @@ Kompetisi ini dimenangkan oleh yang membawa signup manusia terverifikasi terbany
 2. **Minta mereka daftar lewat link referral di repo ini** — https://make.fun/r/7fcw42xg — bukan lewat make.fun langsung, supaya signup-nya terhitung untuk saya.
 3. **Jangan beli atau buat akun palsu.** Signup palsu tidak dihitung dan bisa merugikan. Satu manusia asli yang benar-benar ikut bounty jauh lebih berharga daripada puluhan klik.
 4. Kalau kamu sendiri yang daftar lewat link itu dan nanti menang bounty, saya dapat referral reward — dan kamu tetap mendapat akun dan hadiah yang sama persis.
+
+> `screenshot.png` di repo ini sekarang adalah screenshot asli halaman repo ini di GitHub (diambil dari halaman repo publik yang sudah live), bukan placeholder.
 
 ---
 
